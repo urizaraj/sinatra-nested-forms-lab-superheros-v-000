@@ -28,6 +28,9 @@
 
 <div class="col">
 
-<p>Is this actually working</p>
-
+<% @members.each do |member| %>
+  <p>
+    <%= member.name %>
+  </p>
+<% end %>
 </div>
